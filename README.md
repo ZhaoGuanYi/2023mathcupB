@@ -6,10 +6,11 @@ https://qetrc.readthedocs.io/en/latest/tutorial.html
 
 ## 使用说明
 目标规划模型写在model.py里，Z1,Z2,Z3为目标函数
+更改NSGAII的代码，panduan()约束,设置对应的随机变量（种群）
 
-v1版本为基础用法（对应NSGAii）
+v1版本为基础用法（对应NSGAii） 单变量两个目标函数
 
-v2版本为封装后的高级用法(对应NSGAii_v2)
+v2版本为封装后的高级用法(对应NSGAii_v2) 4变量3个目标函数
 
 ### 快速使用包
 geatpy遗传算法工具库可以实现NSGA-II算法
